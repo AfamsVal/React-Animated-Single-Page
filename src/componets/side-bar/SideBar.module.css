@@ -1,0 +1,89 @@
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    overflow-x: hidden;
+    transition: all 0.8s ease-out;
+    padding-top: 50px;
+    color:var(--text-white);
+}
+
+.sidebarXtra{
+    width: 400px; 
+}
+
+.fullNav {
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.menuIcon{
+    cursor: pointer;
+    padding: 15px;
+}
+
+.menuIcon span{
+    display: block;
+    width: 33px;
+    height: 4px;
+    background-color: var(--text-white);
+    margin: 6px 0;
+    transition: all 0.4s;
+}
+
+.menuIcon span:first-child{
+    width: 24px;
+    margin-left:9px;
+}
+
+.menuIcon:hover span:first-child{
+    transform: translateY(5px);
+}
+.menuIcon:hover span:last-child{
+    transform: translateY(-5px);
+}
+
+
+.menuItem{
+    padding:25px 32px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.arrowRight{
+    position: absolute;
+    bottom: 0px;
+    padding:25px 32px;
+    font-size: 14px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-orange);
+    transition: all 0.5s ease-in-out;
+    transform-origin: bottom;
+}
+.arrowRight:hover{
+    background-color: var(--bg-white);
+    color:var(--text-orange);
+
+}
+
+.arrowRight span:first-child{
+    opacity: 0;
+    transition-delay: 0.5s;
+}
+
+.arrowRight:hover span:first-child{
+    opacity: 1;
+}

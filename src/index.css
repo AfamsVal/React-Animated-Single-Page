@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&family=Nunito&family=Oswald:wght@500&family=Roboto:wght@700&family=Space+Grotesk&display=swap');
+*,*::after,*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+:root{
+    --bg-orange:#e31019;
+    --bg-white:#fff;
+    --bg-black:#000;
+    --text-white:#fff;
+    --text-orange:#e31019;
+}
+
+video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+
+.text-xl{
+    font-weight: bolder;
+    margin-top: 180px;
+    margin-left: 90px;
+    font-size: calc(1.6rem + 3.1vw);
+    color:var(--text-white);
+    line-height: 80px;
+}
+
+
+.text-lg{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 30px;
+    line-height: 32px;
+    color:var(--text-white);
+}
+
+.video-btm{
+    margin-top: 206px;
+    margin-left: 54px;
+}
+
+.video-btm:last-child{
+    color: var(--text-white);
+    font-size: 10px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 4px;
+}
