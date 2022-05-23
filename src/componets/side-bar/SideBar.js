@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowRight from "../icons/ArrowRight";
-import style from "./SideBar.module.css";
+import "./SideBar.css";
 import { SIDE_ITEMS } from "./sideItems";
 
 const SideBar = () => {
@@ -8,14 +8,14 @@ const SideBar = () => {
   const [ismouseOver, setIsMouseOver] = React.useState(false);
   return (
     <div
-      className={`${style.sidebar} ${isOpen ? style.fullNav : null} ${
-        ismouseOver ? style.sidebarXtra : null
+      className={`sidebar ${isOpen ? "fullNav" : ""} ${
+        ismouseOver ? "sidebarXtra" : ""
       }`}
     >
-      <div className={style.menu}>
-        <div className={style.menuIcon} onClick={() => setIsOpen(!isOpen)}>
-          <span className="barTop"></span>
-          <span className="barBottom"></span>
+      <div className="menu">
+        <div className="menuIcon" onClick={() => setIsOpen(!isOpen)}>
+          <span></span>
+          <span></span>
         </div>
       </div>
       {SIDE_ITEMS.map((item) => (
@@ -23,7 +23,7 @@ const SideBar = () => {
           key={item.id}
           onMouseOver={() => setIsMouseOver(true)}
           onMouseOut={() => setIsMouseOver(false)}
-          className={style.menuItem}
+          className="menuItem"
         >
           {item.title}
         </div>
@@ -32,7 +32,7 @@ const SideBar = () => {
       <div
         onMouseOver={() => setIsMouseOver(true)}
         onMouseOut={() => setIsMouseOver(false)}
-        className={style.arrowRight}
+        className="arrowRight"
       >
         <span>explore the product range</span>
         <ArrowRight />
