@@ -25,10 +25,10 @@ const PlayIcon = () => {
             <path
               stroke-linecap="butt"
               stroke-linejoin="miter"
-              fill-opacity="0"
+              fillOpacity="0"
               stroke-miterlimit="4"
               stroke="rgb(255,255,255)"
-              stroke-opacity="1"
+              strokeOpacity="1"
               stroke-width="1"
               d=" M-8.072,11.577 C-5.401,9.713 8.875,-0.25 8.875,-0.25 C8.875,-0.25 -8.5,-12 -8.5,-12 C-8.5,-12 -8.5,11.875 -8.5,11.875 C-8.5,11.875 -8.348,11.769 -8.072,11.577"
             ></path>
@@ -39,7 +39,7 @@ const PlayIcon = () => {
             <path
               stroke-linecap="butt"
               stroke-linejoin="miter"
-              fill-opacity="0"
+              fillOpacity="0"
               stroke-miterlimit="4"
               style={{ display: "none" }}
             ></path>
@@ -50,7 +50,7 @@ const PlayIcon = () => {
             <path
               stroke-linecap="butt"
               stroke-linejoin="miter"
-              fill-opacity="0"
+              fillOpacity="0"
               stroke-miterlimit="4"
               style={{ display: "none" }}
             ></path>

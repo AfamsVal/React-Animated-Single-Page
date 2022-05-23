@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ArrowRight from "../icons/ArrowRight";
 import "./SideBar.css";
 import { SIDE_ITEMS } from "./sideItems";
@@ -6,6 +6,21 @@ import { SIDE_ITEMS } from "./sideItems";
 const SideBar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [ismouseOver, setIsMouseOver] = React.useState(false);
+  const [done, setDone] = React.useState(false);
+
+  useEffect(() => {
+    let timer;
+    if (ismouseOver) {
+      timer = setTimeout(() => {
+        ismouseOver && setDone(true);
+        console.log("done", ismouseOver, done);
+      }, 1000);
+    } else {
+      clearTimeout(timer);
+      console.log("cancel", ismouseOver, done);
+      setDone(false);
+    }
+  }, [ismouseOver, done]);
   return (
     <div
       className={`sidebar ${isOpen ? "fullNav" : ""} ${
@@ -24,8 +39,10 @@ const SideBar = () => {
           onMouseOver={() => setIsMouseOver(true)}
           onMouseOut={() => setIsMouseOver(false)}
           className="menuItem"
+          style={{ backgroundColor: item.id === 1 ? "aqua" : "" }}
         >
-          {item.title}
+          <div style={{ margin: "0px 6px" }}>{item.icon} </div>
+          {ismouseOver && <div style={{ margin: "0px 6px" }}>{item.title}</div>}
         </div>
       ))}
 
@@ -34,7 +51,9 @@ const SideBar = () => {
         onMouseOut={() => setIsMouseOver(false)}
         className="arrowRight"
       >
-        <span>explore the product range</span>
+        <span style={{ width: ismouseOver ? "200px" : "0px" }}>
+          {done ? "explore the product range" : ""}
+        </span>
         <ArrowRight />
       </div>
     </div>
