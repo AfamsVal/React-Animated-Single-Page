@@ -26,9 +26,9 @@ function Landing() {
           foundations.
         </div>
 
-        <div className="video-btm">
+        <div className="video-btm" onClick={() => setPlaying(true)}>
           <span>
-            <PlayIcon setPlaying={() => setPlaying(!playing)} />
+            <PlayIcon />
           </span>
           <span>WATCH FULL VIDEO</span>
         </div>
