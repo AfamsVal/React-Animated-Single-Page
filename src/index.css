@@ -108,10 +108,19 @@ video {
     margin: 6px 0;
     transition: all 0.4s;
 }
+
+.close-btn{
+    transition: all 0.4s;
+}
+
+.close-btn:hover{
+    transform: rotate(360deg);
+}
+
 .close-btn span:first-child{
     transform: rotate(-45deg) translateY(5px);
-
 }
+
 .close-btn span:last-child{
     transform: rotate(45deg) translateY(-5px);
 

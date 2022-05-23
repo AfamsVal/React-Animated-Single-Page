@@ -7,6 +7,7 @@ import ReactPlayer from "react-player";
 
 function Landing() {
   const [playing, setPlaying] = React.useState(false);
+  const [isModal, setIsModal] = React.useState(false);
   return (
     <div className="landing">
       <video autoPlay loop muted>
@@ -26,21 +27,33 @@ function Landing() {
           foundations.
         </div>
 
-        <div className="video-btm" onClick={() => setPlaying(true)}>
+        <div
+          className="video-btm"
+          onClick={() => {
+            setPlaying(true);
+            setIsModal(true);
+          }}
+        >
           <span>
             <PlayIcon />
           </span>
           <span>WATCH FULL VIDEO</span>
         </div>
       </main>
-      <div className={`full-video-modal ${playing ? "active" : ""}`}>
-        <div className="close-video-modal" onClick={() => setPlaying(false)}>
+      <div className={`full-video-modal ${isModal ? "active" : ""}`}>
+        <div className="close-video-modal" onClick={() => setIsModal(false)}>
           <span className="close-btn">
             <span></span>
             <span></span>
           </span>
         </div>
-        <ReactPlayer controls url={shotVideo} width="100%" playing={playing} />
+        <ReactPlayer
+          controls
+          url={shotVideo}
+          width="100%"
+          playing={playing}
+          loop
+        />
       </div>
     </div>
   );
