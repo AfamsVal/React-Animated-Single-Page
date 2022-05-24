@@ -15,44 +15,14 @@
 .sidebarXtra{
     width: 400px; 
 }
+/* 
+.sidebar{
+    width:0
+} */
 
 .sidebar.fullNav {
     width: 100%;
     background-color: rgba(0,0,0,1);
-}
-
-.menu{
-    margin-bottom: 25px;
-    position: relative;
-    height: 60px;
-}
-
-.menuIcon{
-    cursor: pointer;
-    padding: 15px;
-    position: absolute;
-    right: 70px;
-}
-
-.menuIcon span{
-    display: block;
-    width: 33px;
-    height: 4px;
-    background-color: var(--text-white);
-    margin: 6px 0;
-    transition: all 0.4s;
-}
-
-.menuIcon span:first-child{
-    width: 24px;
-    margin-left:9px;
-}
-
-.menuIcon:hover span:first-child{
-    transform: translateY(5px);
-}
-.menuIcon:hover span:last-child{
-    transform: translateY(-5px);
 }
 
 .sidebar.fullNav span:first-child{
@@ -91,7 +61,7 @@ color:var(--text-light);
     background-color: var(--bg-orange);
     transition: all 1s ease-out;
     transform-origin: left top;
-    height: 60px;
+    height: 65px;
 }
 
 .arrowRight:hover{
@@ -101,7 +71,7 @@ color:var(--text-light);
 
 .arrowRight span:first-child{
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
     transition-timing-function: linear;
-    transition-delay: 0.5s;
+    transition-delay: 0.2s;
 }

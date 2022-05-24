@@ -9,7 +9,6 @@ const Tubes = () => {
       viewBox="0 0 66 66"
       preserveAspectRatio="xMidYMid meet"
       style={{ width: "70px", height: "70px" }}
-      fill="red"
     >
       <defs>
         <clipPath id="animationMask_c1tEgsYfW9">
