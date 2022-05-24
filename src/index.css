@@ -14,6 +14,10 @@
     --text-orange:#e31019;
 }
 
+.landing{
+    min-height: 100vh;
+}
+
 video {
     position: absolute;
     right: 0;
@@ -43,7 +47,8 @@ video {
 }
 
 .video-btm{
-    margin-top: 160px;
+    position: absolute;
+    bottom: 36px;
     margin-left: 54px;
     cursor: pointer;
 }
