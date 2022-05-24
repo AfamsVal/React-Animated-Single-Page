@@ -10,7 +10,6 @@ import flatPalt from "../../assets/images/sidebar/flat-plate.jpg";
 import zink from "../../assets/images/sidebar/zink.jpg";
 
 const SideBar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
   const [ismouseOver, setIsMouseOver] = React.useState(false);
   const [done, setDone] = React.useState(false);
   const [itemNo, setItemNo] = React.useState(0);
@@ -21,7 +20,7 @@ const SideBar = () => {
       timer = setTimeout(() => {
         ismouseOver && setDone(true);
         console.log("done", ismouseOver, done);
-      }, 1000);
+      }, 700);
     } else {
       clearTimeout(timer);
       console.log("cancel", ismouseOver, done);
@@ -61,9 +60,7 @@ const SideBar = () => {
 
   return (
     <div
-      className={`sidebar ${isOpen ? "fullNav" : ""} ${
-        ismouseOver ? "sidebarXtra" : ""
-      }`}
+      className={`sidebar ${ismouseOver ? "sidebarXtra" : ""}`}
       style={{
         background:
           itemNo === 0
@@ -71,9 +68,18 @@ const SideBar = () => {
             : `url(${getBackgroundImg()})`,
       }}
     >
+      <div className="menu">
+        {/* <div className="menuIcon" onClick={() => setIsOpen(!isOpen)}>
+          <span></span>
+          <span></span>
+        </div> */}
+      </div>
       <div
         style={{
           paddingTop: "50px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
           backgroundColor: ismouseOver ? "rgba(0,0,0,0.6)" : "none",
           width: "100%",
           height: "100%",
@@ -81,12 +87,6 @@ const SideBar = () => {
           top: "0",
         }}
       >
-        <div className="menu">
-          <div className="menuIcon" onClick={() => setIsOpen(!isOpen)}>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
         {SIDE_ITEMS.map((item) => (
           <div
             key={item.id}
@@ -124,7 +124,9 @@ const SideBar = () => {
           >
             {done ? "explore the product range" : ""}
           </span>
-          <ArrowRight />
+          <ArrowRight
+            fill={ismouseOver && itemNo === 0 ? "#e31019" : "#ffffff"}
+          />
         </div>
       </div>
     </div>

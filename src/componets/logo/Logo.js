@@ -7,10 +7,10 @@ const Logo = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="250"
-        height="100"
+        height="200"
         viewBox="0 0 250 100"
         preserveAspectRatio="xMidYMid meet"
-        style={{ height: "100%" }}
+        style={{ height: "55px" }}
       >
         <defs>
           <clipPath id="animationMask_3JItrSZQDC">

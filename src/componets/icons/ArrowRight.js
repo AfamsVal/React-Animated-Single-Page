@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./ArrowRight.module.css";
 
-const ArrowRight = () => {
+const ArrowRight = ({ fill }) => {
   return (
     <span
       class={style.arrow}
@@ -16,6 +16,7 @@ const ArrowRight = () => {
         style={{
           width: "34px",
           height: "12px",
+          fill: fill,
         }}
       >
         <g>
@@ -24,6 +25,10 @@ const ArrowRight = () => {
       </svg>
     </span>
   );
+};
+
+ArrowRight.defaultProps = {
+  fill: "white",
 };
 
 export default ArrowRight;

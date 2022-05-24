@@ -4,18 +4,29 @@ import shotVideo from "./assets/videos/video-2.mp4";
 import Logo from "./componets/logo/Logo";
 import PlayIcon from "./componets/icons/PlayIcon";
 import ReactPlayer from "react-player";
+import fallBack from "./assets/images/fallback.jpg";
 
 function Landing() {
   const [playing, setPlaying] = React.useState(false);
   const [isModal, setIsModal] = React.useState(false);
   return (
     <div className="landing">
-      <video autoPlay loop muted>
+      <video poster={fallBack} autoPlay loop muted>
         <source src={shotVideo} type="video/mp4" />
       </video>
       <SideBar />
-      <header className="Landing-header">
+      <header className="nav">
         <Logo />
+
+        <div className="menu">
+          <div
+            className="menuIcon"
+            // onClick={() => setIsOpen(!isOpen)}
+          >
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </header>
       <main>
         <h1 class="text-xl">
