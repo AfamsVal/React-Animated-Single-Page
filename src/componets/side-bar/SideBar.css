@@ -86,7 +86,8 @@ font-weight: bold;
     justify-content: center;
     background-color: var(--bg-orange);
     transition: all 1s ease-out;
-    /* transform-origin: left top; */
+    transform-origin: left top;
+    height: 60px;
 }
 
 .arrowRight:hover{

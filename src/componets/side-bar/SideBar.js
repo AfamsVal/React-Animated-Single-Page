@@ -69,7 +69,9 @@ const SideBar = () => {
       >
         <span
           style={{
-            width: ismouseOver ? "200px" : "0px",
+            marginRight: "40px",
+            display: "inline-block",
+            minWidth: ismouseOver ? "200px" : "0px",
             color: itemNo > 0 ? "#FFFFFF" : "#e31019",
           }}
         >

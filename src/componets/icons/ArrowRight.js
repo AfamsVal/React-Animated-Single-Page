@@ -3,14 +3,19 @@ import style from "./ArrowRight.module.css";
 
 const ArrowRight = () => {
   return (
-    <span class={style.arrow} style={{ color: "yellow" }}>
+    <span
+      class={style.arrow}
+      style={{
+        color: "yellow",
+        position: "absolute",
+        right: "70px",
+      }}
+    >
       <svg
         viewBox="0 0 153 52.3"
         style={{
           width: "34px",
           height: "12px",
-          marginLeft: "30px",
-          marginRight: "30px",
         }}
       >
         <g>
