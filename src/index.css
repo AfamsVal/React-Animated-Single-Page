@@ -12,6 +12,11 @@
     --bg-black:#000;
     --text-white:#fff;
     --text-orange:#e31019;
+    --text-light:rgba(155, 153, 153, 0.7);
+}
+
+.landing{
+    min-height: 100vh;
 }
 
 video {
@@ -43,7 +48,8 @@ video {
 }
 
 .video-btm{
-    margin-top: 160px;
+    position: absolute;
+    bottom: 36px;
     margin-left: 54px;
     cursor: pointer;
 }

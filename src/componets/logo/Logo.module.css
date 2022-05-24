@@ -1,7 +1,7 @@
 .logo{
     position: relative;
     height:55px;
-    margin-top:30px;
+    padding-top:30px;
     margin-left:0px;
     z-index: 99;
     width:fit-content;
