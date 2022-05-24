@@ -22,18 +22,16 @@
 }
 
 .menu{
-    display: flex;
-    justify-content: center;
     margin-bottom: 25px;
-    /* background-color: RED; */
     position: relative;
+    height: 60px;
 }
 
 .menuIcon{
     cursor: pointer;
     padding: 15px;
-    display: absolute;
-    left: 10px;
+    position: absolute;
+    right: 70px;
 }
 
 .menuIcon span{

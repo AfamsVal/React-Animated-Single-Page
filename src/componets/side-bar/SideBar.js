@@ -52,7 +52,8 @@ const SideBar = () => {
             <div
               style={{
                 margin: "0px 6px",
-                width: "210px",
+                minWidth: "208px",
+                maxWidth: "210px",
               }}
             >
               {item.title}
