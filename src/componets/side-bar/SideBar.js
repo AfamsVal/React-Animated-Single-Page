@@ -7,6 +7,7 @@ const SideBar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [ismouseOver, setIsMouseOver] = React.useState(false);
   const [done, setDone] = React.useState(false);
+  const [itemNo, setItemNo] = React.useState(0);
 
   useEffect(() => {
     let timer;
@@ -21,6 +22,12 @@ const SideBar = () => {
       setDone(false);
     }
   }, [ismouseOver, done]);
+
+  const handleMouseOver = (number) => {
+    setIsMouseOver(true);
+    setItemNo(number);
+  };
+
   return (
     <div
       className={`sidebar ${isOpen ? "fullNav" : ""} ${
@@ -36,10 +43,9 @@ const SideBar = () => {
       {SIDE_ITEMS.map((item) => (
         <div
           key={item.id}
-          onMouseOver={() => setIsMouseOver(true)}
+          onMouseOver={() => handleMouseOver(item.id)}
           onMouseOut={() => setIsMouseOver(false)}
           className="menuItem"
-          style={{ backgroundColor: item.id === 1 ? "aqua" : "" }}
         >
           <div style={{ margin: "0px 6px" }}>{item.icon} </div>
           {ismouseOver && (
@@ -56,11 +62,16 @@ const SideBar = () => {
       ))}
 
       <div
-        onMouseOver={() => setIsMouseOver(true)}
+        onMouseOver={() => handleMouseOver(0)}
         onMouseOut={() => setIsMouseOver(false)}
         className="arrowRight"
       >
-        <span style={{ width: ismouseOver ? "200px" : "0px" }}>
+        <span
+          style={{
+            width: ismouseOver ? "200px" : "0px",
+            color: itemNo > 0 ? "#FFFFFF" : "#e31019",
+          }}
+        >
           {done ? "explore the product range" : ""}
         </span>
         <ArrowRight />
