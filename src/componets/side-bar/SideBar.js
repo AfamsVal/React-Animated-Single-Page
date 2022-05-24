@@ -42,7 +42,16 @@ const SideBar = () => {
           style={{ backgroundColor: item.id === 1 ? "aqua" : "" }}
         >
           <div style={{ margin: "0px 6px" }}>{item.icon} </div>
-          {ismouseOver && <div style={{ margin: "0px 6px" }}>{item.title}</div>}
+          {ismouseOver && (
+            <div
+              style={{
+                margin: "0px 6px",
+                width: "210px",
+              }}
+            >
+              {item.title}
+            </div>
+          )}
         </div>
       ))}
 
