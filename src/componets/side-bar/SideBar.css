@@ -22,14 +22,16 @@
 }
 
 .menu{
-    display: flex;
-    justify-content: center;
     margin-bottom: 25px;
+    position: relative;
+    height: 60px;
 }
 
 .menuIcon{
     cursor: pointer;
     padding: 15px;
+    position: absolute;
+    right: 70px;
 }
 
 .menuIcon span{
@@ -65,7 +67,7 @@
 
 
 .menuItem{
-    padding:25px 32px;
+    padding:10px 32px;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -93,13 +95,8 @@ font-weight: bold;
 }
 
 .arrowRight span:first-child{
-    opacity: 0;
     transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: linear;
     transition-delay: 0.5s;
-}
-
-.arrowRight:hover span:first-child{
-    opacity: 1;
 }
