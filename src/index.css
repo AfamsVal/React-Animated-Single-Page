@@ -12,6 +12,7 @@
     --bg-black:#000;
     --text-white:#fff;
     --text-orange:#e31019;
+    --text-light:rgba(155, 153, 153, 0.7);
 }
 
 .landing{
