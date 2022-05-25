@@ -1,6 +1,6 @@
 import React from "react";
 
-const BarIron = () => {
+const BarIron = ({ stroke }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +23,7 @@ const BarIron = () => {
         >
           <g opacity="1" transform="matrix(1,0,0,1,28.363,39.254)">
             <path
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -35,6 +36,7 @@ const BarIron = () => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,21.828,45.914)">
             <path
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -47,6 +49,7 @@ const BarIron = () => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.465,45.914)">
             <path
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -59,6 +62,7 @@ const BarIron = () => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,0,0)">
             <path
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -71,6 +75,7 @@ const BarIron = () => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,21.828,24.765)">
             <path
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -83,6 +88,7 @@ const BarIron = () => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.464,24.765)">
             <path
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -95,6 +101,7 @@ const BarIron = () => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,28.25,12.104)">
             <path
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -109,6 +116,10 @@ const BarIron = () => {
       </g>
     </svg>
   );
+};
+
+BarIron.defaultProps = {
+  stroke: "rgba(255, 255, 255, 1)",
 };
 
 export default BarIron;

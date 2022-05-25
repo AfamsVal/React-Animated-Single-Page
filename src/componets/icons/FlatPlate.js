@@ -1,6 +1,6 @@
 import React from "react";
 
-const FlatPlate = () => {
+const FlatPlate = ({ stroke }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -30,6 +30,7 @@ const FlatPlate = () => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               d=" M-22.1,-1.925 C-22.1,-1.925 -25.95,1.925 -25.95,1.925 C-25.95,1.925 25.95,1.925 25.95,1.925"
             ></path>
           </g>
@@ -42,6 +43,7 @@ const FlatPlate = () => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               d=" M-22.1,-1.925 C-22.1,-1.925 -25.95,1.925 -25.95,1.925 C-25.95,1.925 25.95,1.925 25.95,1.925"
             ></path>
           </g>
@@ -54,6 +56,7 @@ const FlatPlate = () => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               d=" M-22.1,-1.925 C-22.1,-1.925 -25.95,1.925 -25.95,1.925 C-25.95,1.925 25.95,1.925 25.95,1.925"
             ></path>
           </g>
@@ -66,6 +69,7 @@ const FlatPlate = () => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
+              style={{ strokeWidth: "1.5px", stroke: stroke }}
               d=" M8.603,-17.276 C8.603,-17.276 -25.95,17.276 -25.95,17.276 C-25.95,17.276 25.95,17.276 25.95,17.276"
             ></path>
           </g>
@@ -73,6 +77,10 @@ const FlatPlate = () => {
       </g>
     </svg>
   );
+};
+
+FlatPlate.defaultProps = {
+  stroke: "rgba(255, 255, 255, 1)",
 };
 
 export default FlatPlate;
