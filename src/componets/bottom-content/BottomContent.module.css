@@ -1,0 +1,31 @@
+.content{
+    display: none;
+    background-color: blueviolet;
+}
+
+@media (max-width: 1024px) { 
+    .content{
+        display: block;
+    }
+     }
+
+
+     .btnMenuItem{
+        padding: 35px 6.25%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-size: calc(1.2rem + 1.6vw);
+    font-weight: bold;
+    color:var(--text-white)
+    }
+    
+    .btmArrowRight{
+    padding:25px 32px;
+    font-size: 14px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-orange);
+    height: 65px;
+    }

@@ -1,16 +1,8 @@
 import React from "react";
-import style from "./ArrowRight.module.css";
 
 const ArrowRight = ({ fill }) => {
   return (
-    <span
-      class={style.arrow}
-      style={{
-        color: "yellow",
-        position: "absolute",
-        right: "70px",
-      }}
-    >
+    <span>
       <svg
         viewBox="0 0 153 52.3"
         style={{
