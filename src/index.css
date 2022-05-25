@@ -60,7 +60,15 @@
 
 .landing{
     min-height: 100vh;
+    position: relative;
 }
+
+
+@media (max-width: 1024px) { 
+    .landing{
+        min-height: 85vh;
+    }
+     }
 
 video {
     position: absolute;
@@ -73,8 +81,8 @@ video {
 
 .text-xl{
     font-weight: bolder;
-    margin-top: calc(6.8rem + 5.8vh);
-    margin-left: calc(60px + 2.9vw);
+    margin-top: calc(5.9rem + 4.2vw);
+    margin-left: calc(2rem + 3.5vw);
     font-size: calc(1.5rem + 3.1vw);
     color:var(--text-light-100);
     line-height: calc(2rem + 3.2vw);
@@ -84,8 +92,8 @@ video {
 .text-lg{
     font-weight: 500;
     margin-top: 30px;
-    margin-left: calc(60px + 2.9vw);
-    font-size: 30px;
+    margin-left: calc(2rem + 3.5vw);
+    font-size: calc(1rem + 1vw);
     line-height: 32px;
     color:var(--text-white);
 }
@@ -173,4 +181,9 @@ video {
 .close-btn span:last-child{
     transform: rotate(45deg) translateY(-5px);
 
+}
+
+.content{
+    height: 200px;
+    background-color: #e31019;
 }

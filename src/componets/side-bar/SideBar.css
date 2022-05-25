@@ -15,10 +15,15 @@
 .sidebarXtra{
     width: 400px; 
 }
-/* 
+
+@media (max-width: 1024px) { 
+    
 .sidebar{
     width:0
-} */
+}
+ }
+
+
 
 .sidebar.fullNav {
     width: 100%;

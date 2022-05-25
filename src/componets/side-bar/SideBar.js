@@ -9,6 +9,25 @@ import foldPlate from "../../assets/images/sidebar/fold-plate.jpg";
 import flatPalt from "../../assets/images/sidebar/flat-plate.jpg";
 import zink from "../../assets/images/sidebar/zink.jpg";
 
+export const getBackgroundImg = (itemNo) => {
+  switch (itemNo) {
+    case 1:
+      return tube;
+    case 2:
+      return foldPlate;
+    case 3:
+      return flatPalt;
+    case 4:
+      return bar;
+    case 5:
+      return rods;
+    case 6:
+      return zink;
+    default:
+      return itemNo;
+  }
+};
+
 const SideBar = () => {
   const [ismouseOver, setIsMouseOver] = React.useState(false);
   const [done, setDone] = React.useState(false);
@@ -37,27 +56,6 @@ const SideBar = () => {
     setItemNo(0);
   };
 
-  const getBackgroundImg = () => {
-    switch (itemNo) {
-      case 1:
-        return tube;
-      case 2:
-        return foldPlate;
-      case 3:
-        return flatPalt;
-      case 4:
-        return bar;
-      case 5:
-        return rods;
-      case 6:
-        return zink;
-      default:
-        return itemNo;
-    }
-  };
-
-  getBackgroundImg();
-
   return (
     <div
       className={`sidebar ${ismouseOver ? "sidebarXtra" : ""}`}
@@ -65,7 +63,7 @@ const SideBar = () => {
         background:
           itemNo === 0
             ? "linear-gradient(to right,rgba(0,0,0,0.9), rgba(0,0,0,0.8))"
-            : `url(${getBackgroundImg()})`,
+            : `url(${getBackgroundImg(itemNo)})`,
       }}
     >
       <div className="menu">
