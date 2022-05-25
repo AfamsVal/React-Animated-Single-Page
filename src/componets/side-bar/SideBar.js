@@ -8,6 +8,12 @@ import tube from "../../assets/images/sidebar/tube.jpg";
 import foldPlate from "../../assets/images/sidebar/fold-plate.jpg";
 import flatPalt from "../../assets/images/sidebar/flat-plate.jpg";
 import zink from "../../assets/images/sidebar/zink.jpg";
+import Tubes from "../icons/Tubes";
+import FoldPlate from "../icons/FoldPlate";
+import FlatPlate from "../icons/FlatPlate";
+import BarIron from "../icons/BarIron";
+import Rods from "../icons/Rods";
+import Zink from "../icons/Zink";
 
 export const getBackgroundImg = (itemNo) => {
   switch (itemNo) {
@@ -87,7 +93,62 @@ const SideBar = () => {
             onMouseOut={() => handleMouseOut()}
             className="menuItem"
           >
-            <div style={{ margin: "0px 6px" }}>{item.icon} </div>
+            <div style={{ margin: "0px 6px" }}>
+              {item.id === 1 && (
+                <Tubes
+                  stroke={
+                    ismouseOver && itemNo === 1
+                      ? "rgba(255, 255, 255, 1)"
+                      : "rgba(155, 153, 153, 0.7)"
+                  }
+                />
+              )}
+              {item.id === 2 && (
+                <FoldPlate
+                  stroke={
+                    ismouseOver && itemNo === 2
+                      ? "rgba(255, 255, 255, 1)"
+                      : "rgba(155, 153, 153, 0.7)"
+                  }
+                />
+              )}
+              {item.id === 3 && (
+                <FlatPlate
+                  stroke={
+                    ismouseOver && itemNo === 3
+                      ? "rgba(255, 255, 255, 1)"
+                      : "rgba(155, 153, 153, 0.7)"
+                  }
+                />
+              )}
+              {item.id === 4 && (
+                <BarIron
+                  stroke={
+                    ismouseOver && itemNo === 4
+                      ? "rgba(255, 255, 255, 1)"
+                      : "rgba(155, 153, 153, 0.7)"
+                  }
+                />
+              )}
+              {item.id === 5 && (
+                <Rods
+                  stroke={
+                    ismouseOver && itemNo === 5
+                      ? "rgba(255, 255, 255, 1)"
+                      : "rgba(155, 153, 153, 0.7)"
+                  }
+                />
+              )}
+              {item.id === 6 && (
+                <Zink
+                  stroke={
+                    ismouseOver && itemNo === 6
+                      ? "rgba(255, 255, 255, 1)"
+                      : "rgba(155, 153, 153, 0.7)"
+                  }
+                />
+              )}
+            </div>
             {ismouseOver && (
               <div
                 style={{
