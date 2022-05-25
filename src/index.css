@@ -187,3 +187,21 @@ video {
     height: 200px;
     background-color: #e31019;
 }
+
+/* //////////////////////////
+//full side bar menu */
+
+/* .landing.active-side-nav {
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+} */
+
+.landing.active-side-nav .menuIcon span:first-child{
+    width: 33px;
+    margin-left:0px;
+    transform: rotate(-45deg) translateY(7px);
+}
+
+.landing.active-side-nav .menuIcon span:last-child{
+    transform: rotate(45deg) translateY(-7px);
+}

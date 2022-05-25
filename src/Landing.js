@@ -10,9 +10,10 @@ import BottomContent from "./componets/bottom-content/BottomContent";
 function Landing() {
   const [playing, setPlaying] = React.useState(false);
   const [isModal, setIsModal] = React.useState(false);
+  const [isSideNav, setIsSideNav] = React.useState(false);
   return (
     <div>
-      <div className="landing">
+      <div className={`landing ${isSideNav ? "active-side-nav" : ""}`}>
         <video poster={fallBack} autoPlay loop muted>
           <source src={shotVideo} type="video/mp4" />
         </video>
@@ -21,10 +22,7 @@ function Landing() {
           <Logo />
 
           <div className="menu">
-            <div
-              className="menuIcon"
-              // onClick={() => setIsOpen(!isOpen)}
-            >
+            <div className="menuIcon" onClick={() => setIsSideNav(!isSideNav)}>
               <span></span>
               <span></span>
             </div>

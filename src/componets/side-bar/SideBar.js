@@ -66,12 +66,7 @@ const SideBar = () => {
             : `url(${getBackgroundImg(itemNo)})`,
       }}
     >
-      <div className="menu">
-        {/* <div className="menuIcon" onClick={() => setIsOpen(!isOpen)}>
-          <span></span>
-          <span></span>
-        </div> */}
-      </div>
+      <div className="menu"></div>
       <div
         style={{
           paddingTop: "50px",
