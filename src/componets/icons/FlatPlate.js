@@ -30,7 +30,11 @@ const FlatPlate = ({ stroke }) => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.2s ease-in-out",
+              }}
               d=" M-22.1,-1.925 C-22.1,-1.925 -25.95,1.925 -25.95,1.925 C-25.95,1.925 25.95,1.925 25.95,1.925"
             ></path>
           </g>
@@ -43,7 +47,11 @@ const FlatPlate = ({ stroke }) => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.4s ease-in-out",
+              }}
               d=" M-22.1,-1.925 C-22.1,-1.925 -25.95,1.925 -25.95,1.925 C-25.95,1.925 25.95,1.925 25.95,1.925"
             ></path>
           </g>
@@ -56,7 +64,11 @@ const FlatPlate = ({ stroke }) => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.6s ease-in-out",
+              }}
               d=" M-22.1,-1.925 C-22.1,-1.925 -25.95,1.925 -25.95,1.925 C-25.95,1.925 25.95,1.925 25.95,1.925"
             ></path>
           </g>
@@ -69,7 +81,11 @@ const FlatPlate = ({ stroke }) => {
               stroke="rgb(94,94,94)"
               stroke-opacity="1"
               stroke-width="1"
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               d=" M8.603,-17.276 C8.603,-17.276 -25.95,17.276 -25.95,17.276 C-25.95,17.276 25.95,17.276 25.95,17.276"
             ></path>
           </g>
