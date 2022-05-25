@@ -20,3 +20,12 @@
     color:var(--text-white)
     }
     
+    .btmArrowRight{
+    padding:25px 32px;
+    font-size: 14px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-orange);
+    height: 65px;
+    }

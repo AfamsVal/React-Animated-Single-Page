@@ -1,4 +1,5 @@
 import React from "react";
+import ArrowRight from "../icons/ArrowRight";
 import { getBackgroundImg } from "../side-bar/SideBar";
 import { SIDE_ITEMS } from "../side-bar/sideItems";
 import style from "./BottomContent.module.css";
@@ -25,6 +26,18 @@ const BottomContent = () => {
           </div>
         </div>
       ))}
+      <div className={style.btmArrowRight}>
+        <span
+          style={{
+            marginRight: "50px",
+            display: "inline-block",
+            color: "var(--text-white)",
+          }}
+        >
+          EXPLORE THE PRODUCT RANGE
+        </span>
+        <ArrowRight fill="#ffffff" />
+      </div>
     </div>
   );
 };

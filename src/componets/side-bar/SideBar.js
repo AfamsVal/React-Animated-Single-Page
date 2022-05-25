@@ -114,17 +114,26 @@ const SideBar = () => {
         >
           <span
             style={{
-              marginRight: "40px",
+              marginRight: "80px",
               display: "inline-block",
               minWidth: ismouseOver ? "200px" : "0px",
               color: itemNo > 0 ? "#FFFFFF" : "#e31019",
             }}
           >
-            {done ? "explore the product range" : ""}
+            {done ? "EXPLORE THE PRODUCT RANGE" : ""}
           </span>
-          <ArrowRight
-            fill={ismouseOver && itemNo === 0 ? "#e31019" : "#ffffff"}
-          />
+          <span
+            class="arrow"
+            style={{
+              color: "yellow",
+              position: "absolute",
+              right: "70px",
+            }}
+          >
+            <ArrowRight
+              fill={ismouseOver && itemNo === 0 ? "#e31019" : "#ffffff"}
+            />
+          </span>
         </div>
       </div>
     </div>

@@ -80,3 +80,8 @@ color:var(--text-light);
     transition-timing-function: linear;
     transition-delay: 0.2s;
 }
+.arrow{
+    display: inline-block;
+    margin-right: 12px;
+    pointer-events: none;
+}
