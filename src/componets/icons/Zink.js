@@ -26,7 +26,7 @@ const Zink = ({ stroke }) => {
               style={{
                 strokeWidth: "1.5px",
                 stroke: stroke,
-                transition: "all 0.8s ease-in-out",
+                transition: "all 0.1s ease-in-out",
               }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
@@ -43,7 +43,7 @@ const Zink = ({ stroke }) => {
               style={{
                 strokeWidth: "1.5px",
                 stroke: stroke,
-                transition: "all 0.8s ease-in-out",
+                transition: "all 0.1s ease-in-out",
               }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
@@ -60,7 +60,7 @@ const Zink = ({ stroke }) => {
               style={{
                 strokeWidth: "1.5px",
                 stroke: stroke,
-                transition: "all 0.8s ease-in-out",
+                transition: "all 0.3s ease-in-out",
               }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
@@ -77,7 +77,7 @@ const Zink = ({ stroke }) => {
               style={{
                 strokeWidth: "1.5px",
                 stroke: stroke,
-                transition: "all 0.8s ease-in-out",
+                transition: "all 0.3s ease-in-out",
               }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
@@ -94,7 +94,7 @@ const Zink = ({ stroke }) => {
               style={{
                 strokeWidth: "1.5px",
                 stroke: stroke,
-                transition: "all 0.8s ease-in-out",
+                transition: "all 0.6s ease-in-out",
               }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
@@ -111,7 +111,7 @@ const Zink = ({ stroke }) => {
               style={{
                 strokeWidth: "1.5px",
                 stroke: stroke,
-                transition: "all 0.8s ease-in-out",
+                transition: "all 0.6s ease-in-out",
               }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
@@ -145,7 +145,7 @@ const Zink = ({ stroke }) => {
               style={{
                 strokeWidth: "1.5px",
                 stroke: stroke,
-                transition: "all 0.8s ease-in-out",
+                transition: "all 1s ease-in-out",
               }}
               stroke-linecap="butt"
               stroke-linejoin="miter"

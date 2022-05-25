@@ -52,7 +52,7 @@ const FoldPlate = ({ stroke }) => {
                 style={{
                   strokeWidth: "1.5px",
                   stroke: stroke,
-                  transition: "all 0.2s ease-in-out",
+                  transition: "all 0.1s ease-in-out",
                 }}
               ></path>
             </g>
@@ -85,7 +85,7 @@ const FoldPlate = ({ stroke }) => {
                 style={{
                   strokeWidth: "1.5px",
                   stroke: stroke,
-                  transition: "all 0.4s ease-in-out",
+                  transition: "all 0.3s ease-in-out",
                 }}
                 d=" M16.466,0 C16.466,9.094 9.093,16.465 0,16.465 C-9.094,16.465 -16.466,9.094 -16.466,0 C-16.466,-9.094 -9.094,-16.465 0,-16.465 C9.093,-16.465 16.466,-9.094 16.466,0z"
               ></path>
@@ -119,7 +119,7 @@ const FoldPlate = ({ stroke }) => {
                 style={{
                   strokeWidth: "1.5px",
                   stroke: stroke,
-                  transition: "all 0.6s ease-in-out",
+                  transition: "all 0.7s ease-in-out",
                 }}
                 d=" M11.512,0 C11.512,6.358 6.358,11.512 0,11.512 C-6.358,11.512 -11.512,6.358 -11.512,0 C-11.512,-6.358 -6.358,-11.512 0,-11.512 C6.358,-11.512 11.512,-6.358 11.512,0z"
               ></path>
@@ -153,7 +153,7 @@ const FoldPlate = ({ stroke }) => {
                 style={{
                   strokeWidth: "1.5px",
                   stroke: stroke,
-                  transition: "all 0.8s ease-in-out",
+                  transition: "all 1s ease-in-out",
                 }}
                 d=" M6.195,0 C6.195,3.422 3.421,6.195 0,6.195 C-3.422,6.195 -6.195,3.422 -6.195,0 C-6.195,-3.422 -3.422,-6.195 0,-6.195 C3.421,-6.195 6.195,-3.422 6.195,0z"
               ></path>
@@ -170,7 +170,7 @@ const FoldPlate = ({ stroke }) => {
                 style={{
                   strokeWidth: "1.5px",
                   stroke: stroke,
-                  transition: "all 0.9s ease-in-out",
+                  transition: "all 1s ease-in-out",
                 }}
                 d=" M3.547,0 C3.547,1.959 1.958,3.546 0,3.546 C-1.959,3.546 -3.547,1.959 -3.547,0 C-3.547,-1.959 -1.959,-3.546 0,-3.546 C1.958,-3.546 3.547,-1.959 3.547,0z"
               ></path>
