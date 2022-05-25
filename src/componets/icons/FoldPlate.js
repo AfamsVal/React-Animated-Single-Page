@@ -32,7 +32,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke-opacity="1"
                 stroke-width="1"
                 d=" M18.966,49.867 C18.966,49.867 54.614,49.867 54.614,49.867"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.1s ease-in-out",
+                }}
               ></path>
             </g>
             <g opacity="1" transform="matrix(1,0,0,1,0,0)">
@@ -45,7 +49,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke-opacity="1"
                 stroke-width="1"
                 d=" M43.438,32.216 C43.438,32.216 54.614,32.216 54.614,32.216"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.2s ease-in-out",
+                }}
               ></path>
             </g>
             <g opacity="1" transform="matrix(1,0,0,1,28.53,24.005)">
@@ -57,7 +65,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke="rgb(94,94,94)"
                 stroke-opacity="1"
                 stroke-width="1"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.3s ease-in-out",
+                }}
                 d=" M1.614,21.504 C1.614,21.504 14.908,8.212 14.908,8.212 C21.338,1.7809999999999997 21.338,-8.644 14.908,-15.074 C8.477,-21.503999999999998 -1.9480000000000004,-21.503999999999998 -8.378,-15.074 C-8.378,-15.074 -21.338,-2.114 -21.338,-2.114"
               ></path>
             </g>
@@ -70,7 +82,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke="rgb(94,94,94)"
                 stroke-opacity="1"
                 stroke-width="1"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.4s ease-in-out",
+                }}
                 d=" M16.466,0 C16.466,9.094 9.093,16.465 0,16.465 C-9.094,16.465 -16.466,9.094 -16.466,0 C-16.466,-9.094 -9.094,-16.465 0,-16.465 C9.093,-16.465 16.466,-9.094 16.466,0z"
               ></path>
             </g>
@@ -83,7 +99,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke="rgb(94,94,94)"
                 stroke-opacity="1"
                 stroke-width="1"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.5s ease-in-out",
+                }}
                 d=" M13.971,0 C13.971,7.716 7.715,13.97 0,13.97 C-7.716,13.97 -13.971,7.716 -13.971,0 C-13.971,-7.716 -7.716,-13.97 0,-13.97 C7.715,-13.97 13.971,-7.716 13.971,0z"
               ></path>
             </g>
@@ -96,7 +116,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke="rgb(94,94,94)"
                 stroke-opacity="1"
                 stroke-width="1"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.6s ease-in-out",
+                }}
                 d=" M11.512,0 C11.512,6.358 6.358,11.512 0,11.512 C-6.358,11.512 -11.512,6.358 -11.512,0 C-11.512,-6.358 -6.358,-11.512 0,-11.512 C6.358,-11.512 11.512,-6.358 11.512,0z"
               ></path>
             </g>
@@ -109,7 +133,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke="rgb(94,94,94)"
                 stroke-opacity="1"
                 stroke-width="1"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.7s ease-in-out",
+                }}
                 d=" M8.872,0 C8.872,4.9 4.899,8.871 0,8.871 C-4.9,8.871 -8.872,4.9 -8.872,0 C-8.872,-4.9 -4.9,-8.871 0,-8.871 C4.899,-8.871 8.872,-4.9 8.872,0z"
               ></path>
             </g>
@@ -122,7 +150,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke="rgb(94,94,94)"
                 stroke-opacity="1"
                 stroke-width="1"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.8s ease-in-out",
+                }}
                 d=" M6.195,0 C6.195,3.422 3.421,6.195 0,6.195 C-3.422,6.195 -6.195,3.422 -6.195,0 C-6.195,-3.422 -3.422,-6.195 0,-6.195 C3.421,-6.195 6.195,-3.422 6.195,0z"
               ></path>
             </g>
@@ -135,7 +167,11 @@ const FoldPlate = ({ stroke }) => {
                 stroke="rgb(94,94,94)"
                 stroke-opacity="1"
                 stroke-width="1"
-                style={{ strokeWidth: "1.5px", stroke: stroke }}
+                style={{
+                  strokeWidth: "1.5px",
+                  stroke: stroke,
+                  transition: "all 0.9s ease-in-out",
+                }}
                 d=" M3.547,0 C3.547,1.959 1.958,3.546 0,3.546 C-1.959,3.546 -3.547,1.959 -3.547,0 C-3.547,-1.959 -1.959,-3.546 0,-3.546 C1.958,-3.546 3.547,-1.959 3.547,0z"
               ></path>
             </g>

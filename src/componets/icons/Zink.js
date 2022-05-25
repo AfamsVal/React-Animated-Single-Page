@@ -23,7 +23,11 @@ const Zink = ({ stroke }) => {
         >
           <g opacity="1" transform="matrix(1,0,0,1,28.57,20.964)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -36,7 +40,11 @@ const Zink = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.767,7.538)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -49,7 +57,11 @@ const Zink = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,28.51,26.322)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -62,7 +74,11 @@ const Zink = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,20.054,18.578)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -75,7 +91,11 @@ const Zink = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,28.626,31.626)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -88,7 +108,11 @@ const Zink = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,20.054,23.876)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -101,7 +125,11 @@ const Zink = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,28.505,36.924)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -114,7 +142,11 @@ const Zink = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,20.054,29.146)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"

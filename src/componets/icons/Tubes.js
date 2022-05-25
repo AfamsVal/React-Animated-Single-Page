@@ -23,7 +23,11 @@ const Tubes = ({ stroke }) => {
         >
           <g opacity="1" transform="matrix(1,0,0,1,5.722,32.143)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -36,7 +40,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,12.166,32.143)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -49,7 +57,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,18.61,32.143)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -62,7 +74,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.053,32.143)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -75,7 +91,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,31.497,32.143)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -88,7 +108,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,8.944,26.472)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -101,7 +125,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.388,26.472)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -114,7 +142,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,21.832,26.472)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -127,7 +159,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,28.275,26.472)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -140,7 +176,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,21.832,37.781)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -153,7 +193,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,28.275,37.781)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -166,7 +210,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,8.944,37.781)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -179,7 +227,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.388,37.781)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -192,7 +244,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,12.166,20.84)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -205,7 +261,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,18.61,20.84)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -218,7 +278,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.053,20.84)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -231,7 +295,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,12.166,43.445)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -244,7 +312,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,18.61,43.445)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -257,7 +329,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.053,43.445)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -270,7 +346,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,18.989,9.442)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -283,7 +363,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.413,9.442)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -296,7 +380,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,31.891,9.442)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -309,7 +397,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,42.527,17.055)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -322,7 +414,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,38.55,11.919)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -335,7 +431,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,42.527,28.09)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -348,7 +448,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,40.807,32.251)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -361,7 +465,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,44.096,24.115)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -374,7 +482,11 @@ const Tubes = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,38.378,21.18)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"

@@ -23,7 +23,11 @@ const BarIron = ({ stroke }) => {
         >
           <g opacity="1" transform="matrix(1,0,0,1,28.363,39.254)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -36,7 +40,11 @@ const BarIron = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,21.828,45.914)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.2s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -49,7 +57,11 @@ const BarIron = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.465,45.914)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.2s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -62,7 +74,11 @@ const BarIron = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,0,0)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.4s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -75,7 +91,11 @@ const BarIron = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,21.828,24.765)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.4s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -88,7 +108,11 @@ const BarIron = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.464,24.765)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -101,7 +125,11 @@ const BarIron = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,28.25,12.104)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 1s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"

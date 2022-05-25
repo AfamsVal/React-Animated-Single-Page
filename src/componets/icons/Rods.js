@@ -23,7 +23,11 @@ const Rods = ({ stroke }) => {
         >
           <g opacity="1" transform="matrix(1,0,0,1,8.784,37.592)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -36,7 +40,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,7.071,39.305)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -49,7 +57,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,10.448,35.928)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -62,7 +74,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,12.166,34.21)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -75,7 +91,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,13.839,32.537)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -88,7 +108,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.535,30.841)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -101,7 +125,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,17.205,29.171)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -114,7 +142,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,18.922,27.454)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -127,7 +159,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,20.586,25.79)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -140,7 +176,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,22.304,24.072)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -153,7 +193,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,23.977,22.399)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -166,7 +210,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.673,20.703)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -179,7 +227,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,27.343,19.033)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -192,7 +244,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,27.336,19.04)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -205,7 +261,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,29,17.376)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -218,7 +278,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,30.718,15.658)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -231,7 +295,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,32.391,13.985)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -244,7 +312,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,34.087,12.289)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -257,7 +329,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,35.757,10.619)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -270,7 +346,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,37.434,8.942)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -283,7 +363,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,39.13,7.246)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -296,7 +380,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,40.8,5.576)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -309,7 +397,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,40.793,5.583)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -322,7 +414,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,42.457,3.919)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -335,7 +431,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,17.3,37.592)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -348,7 +448,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,15.587,39.305)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -361,7 +465,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,18.964,35.928)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -374,7 +482,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,20.682,34.21)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -387,7 +499,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,22.355,32.537)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -400,7 +516,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,24.051,30.841)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -413,7 +533,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.721,29.171)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -426,7 +550,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,27.438,27.454)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -439,7 +567,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,29.102,25.79)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -452,7 +584,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,30.82,24.072)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -465,7 +601,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,32.493,22.399)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -478,7 +618,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,34.189,20.703)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -491,7 +635,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,35.859,19.033)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -504,7 +652,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,35.852,19.04)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -517,7 +669,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,37.516,17.376)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -530,7 +686,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,39.234,15.658)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -543,7 +703,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,40.907,13.985)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -556,7 +720,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,42.603,12.289)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -569,7 +737,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,44.273,10.619)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -582,7 +754,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,45.95,8.942)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -595,7 +771,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,47.646,7.246)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -608,7 +788,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,49.316,5.576)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -621,7 +805,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,49.309,5.583)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -634,7 +822,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,50.973,3.919)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -647,7 +839,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,25.796,37.592)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -660,7 +856,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,24.084,39.305)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -673,7 +873,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,27.461,35.928)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -686,7 +890,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,29.179,34.21)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -699,7 +907,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,30.852,32.537)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -712,7 +924,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,32.548,30.841)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -725,7 +941,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,34.218,29.171)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -738,7 +958,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,35.935,27.454)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -751,7 +975,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,37.599,25.79)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -764,7 +992,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,39.317,24.072)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -777,7 +1009,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,40.99,22.399)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -790,7 +1026,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,42.686,20.703)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -803,7 +1043,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,44.356,19.033)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -816,7 +1060,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,44.348,19.04)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -829,7 +1077,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,46.013,17.376)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -842,7 +1094,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,47.73,15.658)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -855,7 +1111,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,49.404,13.985)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -868,7 +1128,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,51.1,12.289)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -881,7 +1145,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,34.339,37.592)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -894,7 +1162,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,32.626,39.305)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -907,7 +1179,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,36.004,35.928)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -920,7 +1196,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,37.721,34.21)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -933,7 +1213,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,39.394,32.537)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -946,7 +1230,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,41.09,30.841)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -959,7 +1247,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,42.761,29.171)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -972,7 +1264,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,44.477,27.454)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -985,7 +1281,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,46.142,25.79)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -998,7 +1298,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,47.859,24.072)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1011,7 +1315,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,49.532,22.399)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1024,7 +1332,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,51.228,20.703)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1037,7 +1349,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,41.847,28.456)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1050,7 +1366,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,43.876,34.931)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1063,7 +1383,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,37.565,24.195)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1076,7 +1400,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,39.605,30.66)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1089,7 +1417,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,32.409,20.854)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1102,7 +1434,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,35.358,26.41)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1115,7 +1451,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,23.893,20.854)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1128,7 +1468,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,30.092,23.159)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1141,7 +1485,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,22.512,43.493)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1154,7 +1502,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,31.055,43.493)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1167,7 +1519,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,14.015,43.493)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
@@ -1180,7 +1536,11 @@ const Rods = ({ stroke }) => {
           </g>
           <g opacity="1" transform="matrix(1,0,0,1,5.499,43.493)">
             <path
-              style={{ strokeWidth: "1.5px", stroke: stroke }}
+              style={{
+                strokeWidth: "1.5px",
+                stroke: stroke,
+                transition: "all 0.8s ease-in-out",
+              }}
               stroke-linecap="butt"
               stroke-linejoin="miter"
               fill-opacity="0"
